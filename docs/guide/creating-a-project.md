@@ -15,6 +15,7 @@ If you are on Windows using Git Bash with minTTY, the interactive prompts will n
 You will be prompted to pick a preset. You can either choose the default preset which comes with a basic Babel + ESLint setup, or select "Manually select features" to pick the features you need.
 
 ![CLI preview](/cli-new-project.png)
+![CLI preview](../img/cli-new-project2.png)
 
 The default setup is great for quickly prototyping a new project, while the manual setup provides more options that are likely needed for more production-oriented projects.
 

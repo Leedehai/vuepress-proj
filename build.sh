@@ -23,7 +23,7 @@ if [ $? -ne 0 ]; then
 fi
 
 # abort on errors
-set -e
+# set -e
 
 # build
 echo "Building site to docs/.vuepress/dist ..."
