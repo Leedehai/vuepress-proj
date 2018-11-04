@@ -1,9 +1,9 @@
 ---
 home: true
 heroImage: /favicon.png
-actionText: Get Started! →
+actionText: Get Started? →
 actionLink: /guide/
-footer: MIT Licensed | Copyright © 2018-present Evan You
+footer: Only to test Vuepress by publishing VueCLI docs | Copyright © 2018-present Evan You
 ---
 
 <div style="text-align: center">

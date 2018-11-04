@@ -1,0 +1,5 @@
+*.sh linguist-documentation
+*.py linguist-documentation
+*.js linguist-documentation
+*.css linguist-documentation
+*.html linguist-documentation

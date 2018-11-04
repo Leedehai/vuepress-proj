@@ -1,10 +1,10 @@
 module.exports = {
-	base: '/vuepress-proj/',
-    locales: {
+  base: '/vuepress-proj/',
+  locales: {
     '/': {
       lang: 'en-US',
-      title: 'Vue CLI 3',
-      description: '🛠️ Standard Tooling for Vue.js Development'
+      title: 'Your title',
+      description: 'To test Vuepress by publishing VueCLI docs'
     },
   },
   serviceWorker: true,
@@ -16,14 +16,13 @@ module.exports = {
     repo: 'vuejs/vue-cli',
     docsDir: 'docs',
     docsBranch: 'docs',
-    editLinks: true,
+    editLinks: false,
+    lastUpdated: false,
     sidebarDepth: 3,
     locales: {
       '/': {
         label: 'English',
         selectText: 'Languages',
-        lastUpdated: 'Last Updated',
-        editLinkText: 'Edit this page on GitHub',
         serviceWorker: {
           updatePopup: {
             message: "New content is available.",
@@ -60,10 +59,6 @@ module.exports = {
               { text: 'Cypress', link: 'https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-e2e-cypress' },
               { text: 'Nightwatch', link: 'https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-e2e-nightwatch' }
             ]
-          },
-          {
-            text: 'Changelog',
-            link: 'https://github.com/vuejs/vue-cli/blob/dev/CHANGELOG.md'
           }
         ],
         sidebar: {
