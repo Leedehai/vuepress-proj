@@ -33,6 +33,11 @@ else
 	npm run docs:build > /dev/null 2>&1
 fi
 
+if [ $? -ne 0]; then
+	echo "Error encountered."
+	echo "To have logging info printed, run: ./build.sh -v"
+fi
+
 echo "Committing changes ..."
 # navigate into the build output directory
 cd docs/.vuepress/dist > /dev/null
